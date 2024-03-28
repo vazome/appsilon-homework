@@ -1,0 +1,7 @@
+#Get base image from the official docker hub R repository 
+FROM r-base:latest
+#Heading to the working directory
+WORKDIR /usr/src/app
+#Install shiny package with R
+RUN Rscript -e "install.packages('shiny', repos='https://cloud.r-project.org')"
+#Application itself will be run with
