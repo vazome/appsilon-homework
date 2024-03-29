@@ -1,8 +1,6 @@
-#Get base image from the official docker hub R repository 
-FROM r-base:latest
+#Get base image which already has R and Shiny installed
+FROM rocker/shiny
 #Heading to the working directory
 WORKDIR /usr/src/app
-#Install shiny package with Rscript
-RUN Rscript -e "install.packages('shiny', repos='https://cloud.r-project.org')"
 #Run Application with Rscript sourcing Github repo
-RUN Rscript -e "shiny::runGitHub('shiny-examples', 'rstudio', subdir = '001-hello')
+RUN Rscript -e "shiny::runGitHub('vazome', 'appsilon-homework', subdir = 'shiny-app/hello')"
