@@ -1,7 +1,7 @@
 library(shiny)
 
 # Declare the host and port to run the Shiny app or else it will be random
-options(shiny.host = "172.0.0.1")
+options(shiny.host = "0.0.0.0")
 options(shiny.port = 8180)
 
 # Define UI for app that draws a histogram ----
