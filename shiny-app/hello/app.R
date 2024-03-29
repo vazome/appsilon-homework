@@ -8,7 +8,7 @@ options(shiny.port = 8180)
 ui <- fluidPage(
 
   # App title ----
-  titlePanel("Hello Shiny!"),
+  titlePanel("Hello Appsilon, this is Shiny!"),
 
   # Sidebar layout with input and output definitions ----
   sidebarLayout(

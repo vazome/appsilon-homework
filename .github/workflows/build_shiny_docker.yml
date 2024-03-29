@@ -5,7 +5,8 @@ on:
     paths:
         - shiny-app/**
         - .**/build_shiny_docker.yml
-  workflow_dispatch:
+  schedule:
+    - cron: '0 19 * * 6'
 
 env:
     DOCKERHUB_USERNAME: ${{secrets.DOCKERHUB_USERNAME}}
@@ -32,6 +33,7 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: "{{defaultContext}}:shiny-app/docker"
+          platforms: linux/amd64
           push: true
           cache-from: type=registry,ref=vazome/appsilon-homework:latest
           cache-to: type=inline
