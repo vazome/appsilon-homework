@@ -3,7 +3,7 @@ name: Build Shiny Docker Image
 on:
   push:
     paths:
-        - shiny-app/docker/Dockerfile
+        - shiny-app/**
         - .**/build_shiny_docker.yml
   workflow_dispatch:
 
