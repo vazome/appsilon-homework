@@ -2,6 +2,7 @@
 FROM r-base:latest
 #Heading to the working directory
 WORKDIR /usr/src/app
-#Install shiny package with R
+#Install shiny package with Rscript
 RUN Rscript -e "install.packages('shiny', repos='https://cloud.r-project.org')"
-#Application itself will be run with
+#Run Application with Rscript sourcing Github repo
+RUN Rscript -e "shiny::runGitHub('shiny-examples', 'rstudio', subdir = '001-hello')
