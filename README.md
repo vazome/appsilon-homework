@@ -8,7 +8,14 @@ Per assignment, the environment has been created to build an R Shiny application
 Related configurations available at [shiny-app](./shiny-app) and [build_shiny_docker.yml](.github/workflows/build_shiny_docker.yml).
 
 
-## Assignment 1: R Shiny App [![Build Shiny Docker Image]
+## Assignment 2: Ansible Configuration [![Build Shiny Docker Image](https://github.com/vazome/appsilon-homework/actions/workflows/ansible_lint.yml/badge.svg)](https://github.com/vazome/appsilon-homework/actions/workflows/ansible_lint.yml)
+
+Both the playbook and the script have been pushed to the submodule path [plat-eng-task-starter](plat-eng-task-starter) which was forked from Appsilon's example repo. 
+
+The [playbook.yml](plat-eng-task-starter/playbook.yml) contains comments to guide a possible reader through the configuration process.
+
 ``` yaml
 ansible-playbook playbook.yml -i ansible_hosts 
 ```
+
+## Assignment 3: Theoretical Environment
