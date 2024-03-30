@@ -6,7 +6,7 @@ on:
         - main
   push:
     paths:
-        - 'plat-eng-task-starter/*.yml'
+        - '**/*.yml'
 jobs:
   build:
     name: Ansible Lint
