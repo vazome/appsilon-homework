@@ -23,7 +23,7 @@ ansible-playbook playbook.yml -i ansible_hosts
 A simple concept which barebones outlines how would a potential user interact with a cloud based application. 
 ![](assets/concept1.svg)
 ___
-A bit more complex concept which takes into account application development stage of an application and it's automated deployment.
+A bit more complex concept which takes into account application development stage of an application and its automated deployment.
 ![](assets/concept2.svg)
 ___
 An enterprise focused concept which offloads serverless infrastructure deployment to the Serverless Framework.
