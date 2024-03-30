@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-30T14:23:50.888Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="iXFV72zIPW-ZWcUvIs6C" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-30T14:24:55.216Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="ABYvrLV1lVimhbBlPHMF" version="24.2.1" type="github">
   <diagram name="Page-1" id="X_xu9yqvRvAoMvWeWLDH">
-    <mxGraphModel dx="2206" dy="1071" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1247" dy="605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -38,6 +38,9 @@
         </mxCell>
         <mxCell id="PId3YlP804T0nUE9bXyA-24" value="AWS Lambda" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;" parent="PId3YlP804T0nUE9bXyA-1" vertex="1">
           <mxGeometry x="614" y="250" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="yjfewh2JKQiP3coMxWQo-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" edge="1" parent="PId3YlP804T0nUE9bXyA-1" source="yjfewh2JKQiP3coMxWQo-2" target="PId3YlP804T0nUE9bXyA-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yjfewh2JKQiP3coMxWQo-2" value="AWS IAM (OIDC)" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#DD344C;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.identity_and_access_management;" vertex="1" parent="PId3YlP804T0nUE9bXyA-1">
           <mxGeometry x="20" y="230" width="78" height="78" as="geometry" />
