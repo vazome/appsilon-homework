@@ -3,8 +3,8 @@ name: Build Shiny Docker Image
 on:
   push:
     paths:
-        - shiny-app/**
-        - .**/build_shiny_docker.yml
+        - 'shiny-app/**'
+        - '**/build_shiny_docker.yml'
   schedule:
     - cron: '0 19 * * 6'
 
