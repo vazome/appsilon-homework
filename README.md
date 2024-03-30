@@ -19,3 +19,14 @@ ansible-playbook playbook.yml -i ansible_hosts
 ```
 
 ## Assignment 3: Theoretical Environment
+A simple concept which barebones outlines how would a potential user interact with a cloud based application. 
+![](assets/concept1.svg)
+___
+A bit more complex concept which takes into account application development stage of an application and it's automated deployment.
+![](assets/concept2.svg)
+___
+An enterprise focused concept which offloads serverless infrastructure deployment to the Serverless Framework.
+![](assets/concept3.svg)
+___
+**Bonus**: My pet project's [redbull-tracker-ge](https://github.com/vazome/redbull-tracker-ge) diagram
+![](https://github.com/vazome/redbull-tracker-ge/raw/main/.assets/redbull_architecture.drawio.svg)
