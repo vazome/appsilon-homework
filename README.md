@@ -14,6 +14,7 @@ Both the playbook and the script were pushed to the submodule path `plat-eng-tas
 
 The `playbook.yml` contains comments to guide a possible reader through the configuration process.
 
+This is how you launch the playbook with `ansible-playbook`, note that you must provide a list of target hosts either as a file or inline.
 ``` yaml
 ansible-playbook playbook.yml -i ansible_hosts 
 ```
