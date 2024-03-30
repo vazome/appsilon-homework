@@ -1,4 +1,5 @@
 collections:
   # Install a collection from Ansible Galaxy.
   - name: community.general
+    version: ">=8.4.0"
     source: https://galaxy.ansible.com
